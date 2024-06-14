@@ -1,7 +1,8 @@
-package exceptions;
+package exception;
 
 public class NomeInvalidoException extends Exception {
     public NomeInvalidoException(){
-        super("Nome eh obrigatorio");
+        super("o nome do produto não deve ter menos de 3 caracteres!");
+
     }
 }
